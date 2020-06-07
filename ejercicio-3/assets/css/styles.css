@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+p{
+    margin:5px 0;
+}
+.container{
+    width: 45vw;
+    height: 55vh;
+}
+.container__flag{
+    width: 100%;
+    height: 80%;
+    border: 2px solid gray;
+}
+/*----------------flags ------------------ */
+.container__spain{
+    float: left;
+}
+.container__denmark{
+    float: right;
+}
+.container__ea{
+    float: left;
+}
+.container__japan{
+    float: right;
+}
+/*----------------spain------------------- */
+.flag-spain__red-1{
+    height: 30%;
+    width: 100%;
+    background-color: red;
+}
+.flag-spain__yellow{
+    height: 40%;
+    width: 100%;
+    background-color: yellow;
+}
+.flag-spain__red-2{
+    height: 30%;
+    width: auto;
+    background-color: red;
+}
+
+/*----------------denmark------------------- */
+.flag-denmark__red__square-1{
+    background-color: red;
+    float: left;
+    height: 44%;
+    width: 31%;
+    margin-bottom: 30px;
+}
+.flag-denmark__red__square-2{
+    background-color: red;
+    float: right;
+    height: 44%;
+    width: 63%;
+    margin-bottom: 30px;
+}
+.flag-denmark__red__square-3{
+    background-color: red;
+    float: left;
+    height: 45%;
+    width: 31%;
+}
+.flag-denmark__red__square-4{
+    background-color: red;
+    float: right;
+    height: 45%;
+    width: 63%;
+}
+.clear-fix{
+    clear: both;
+}
+
+/*--------------arab---emirates------------------ */
+.flag-emiratos__space-1{
+    height: 100%;
+    width: 25%;
+    float: left;
+    background-color: red;
+}
+.flag-emiratos__space-2{
+    height: 33%;
+    width: 75%;
+    float: right;
+    background-color: green;
+}
+.flag-emiratos__space-3{
+     height: 33%;
+    width: 75%;
+    float: right;
+    background-color: white;
+}
+.flag-emiratos__space-4{
+    height: 34%;
+    width: 75%;
+    float: right;
+    background-color:black;
+}
+/*----------------japan------------------- */
+.flag__red-round{
+    background-color: red;
+    height: 48%;
+    width: 31%;
+    border-radius: 100%;
+    position: relative;
+    left: 35%;
+    top: 25%;
+}

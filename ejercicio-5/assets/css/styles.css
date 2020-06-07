@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section__ribbon{
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+
+}
+.section__image{
+    position: relative;
+    z-index: -1;
+}
+.section{
+    width: 300px;
+    height: 300px;
+}

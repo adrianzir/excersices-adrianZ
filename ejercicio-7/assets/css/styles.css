@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.stories{
+    width: 80vw;
+    height: fit-content;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+.image__ribbon{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}

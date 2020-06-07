@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: brown;
+}
+.article{
+    width: fit-content;
+    height: fit-content;
+}
+.article__image{
+    position: relative;
+    z-index: -1;
+}
+.article__ribbon{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    z-index: 1;
+    left: 150px;
+    top:150px;
+
+}
+
